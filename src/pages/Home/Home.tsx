@@ -11,6 +11,9 @@ function Home() {
         <li>
           <Link to="/quiz-app">Quiz App</Link>
         </li>
+        <li>
+          <Link to="/recipe-app">Recipe App</Link>
+        </li>
       </ul>
     </div>
   )

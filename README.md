@@ -25,7 +25,9 @@ You can find the projects [here](https://10projects10hours.netlify.app/).
 
 -   Design: https://uidesigndaily.com/posts/sketch-recipe-app-food-mobile-day-615
 -   recipe info on click
--   fav recipe (w/ localStorage)
+-   search meal -> show all
+-   fav recipe (w/ localStorage) -> save and show
+-   show heart icon when click fav
 
 4. Notes App
 
