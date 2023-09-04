@@ -1,0 +1,7 @@
+@use './reset.scss';
+@use './base.scss';
+@use './components/index';
+
+.App {
+    background-image: url("../assets/images/coundown-time.jpg");
+}

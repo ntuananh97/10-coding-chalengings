@@ -1,0 +1,47 @@
+.radio {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  margin-bottom: 30px;
+
+  color: #242e4c;
+  font-size: 16px;
+
+  &__input {
+    display: none;
+  }
+
+  &__dot {
+    display: block;
+    width: 22px;
+    height: 22px;
+    border: 1px solid #c0c1c8;
+    border-radius: 50%;
+
+    position: relative;
+
+    &::after {
+      display: none;
+    }
+  }
+
+  &__input:checked ~ &__dot::after {
+    content: "";
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    background-color: #4273f4; /* Change the color when selected */
+    display: block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+  }
+
+  &__input:checked ~ &__dot {
+    border-color: #4292f4;
+  }
+}

@@ -1,0 +1,30 @@
+.countdown {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    h1 {
+        font-size: 25px;
+        color: #434A50;
+        margin-top: 30px;
+    }
+
+    &__list {
+        margin-top: 50px;
+        display: flex;
+        align-items: center;
+        gap: 100px;
+    }
+
+    &__item {
+        text-align: center;
+        color: #434A50;
+        font-size: 14px;
+    }
+
+    &__number {
+        font-size: 65px;
+        margin-bottom: 5px;
+        font-weight: bold;
+    }
+}
